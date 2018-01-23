@@ -13,4 +13,5 @@ public interface IMainView extends IBaseView<List<Message>> {
     //图片加载完毕调用
     void ImageComplete();
 
+    void bannerComplete(List<Message> list);
 }
